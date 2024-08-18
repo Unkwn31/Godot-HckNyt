@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://c43atsii4fj6k"]
+
+[ext_resource type="Texture2D" uid="uid://cgay7aabddvha" path="res://background-1_0.png" id="1_3cxrh"]
+[ext_resource type="Script" path="res://road2.gd" id="2_lf150"]
+[ext_resource type="Texture2D" uid="uid://xcd5vh7as4wm" path="res://car.png" id="3_rcayl"]
+[ext_resource type="Script" path="res://car.gd" id="4_e6oat"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="road" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(588, 322.5)
+scale = Vector2(1.39524, 0.986154)
+texture = ExtResource("1_3cxrh")
+script = ExtResource("2_lf150")
+
+[node name="car" type="Sprite2D" parent="."]
+top_level = true
+position = Vector2(589, 508)
+scale = Vector2(0.147, 0.141125)
+texture = ExtResource("3_rcayl")
+flip_v = true
+script = ExtResource("4_e6oat")
