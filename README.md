@@ -14,11 +14,14 @@ Navigate your car through an endless road filled with obstacles! In this 2D car 
 ## Link to product walkthrough
 [link to video](Link Here)
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+Controls:
+- Left arrow key: Move car left
+- Right arrow key: Move car right
+- Up arrow key: Move car front
+- Down arrow key: Move car back
 ## Libraries used
-Library Name - Version
+No libraries were used in the making of this project.
 ## How to configure
-Instructions for setting up project
+Have Godot Engine v4.3 installed on your system.Download the roadrush file and place it in the Godot directory path.
 ## How to Run
-Instructions for running
+Open the file using the Godot application and hit the run button on the top right side of the screen (or use F5 shortcut to run the project).
